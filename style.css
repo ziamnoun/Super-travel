@@ -1,0 +1,402 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation bar*/
+.navbar{
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbtn{
+    color: black;
+    display: none;
+    margin-right: 40px;
+    margin-top: 10px;
+    height: 80px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.first-Nav{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    margin-left: 135px;
+}
+.first-Nav>p>span{
+    color: #FF5400;
+}
+.second-Nav{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    margin-right: 127px;
+}
+.second-Nav>p>a{
+    font-style: none;
+    color: black;
+    text-decoration: none;
+
+}
+#home>a{
+    text-decoration: none;
+    color: #FF5400;
+}
+/*For responsive*/
+@media screen and (max-width:640px){
+    .checkbtn{
+        display: block;
+        cursor: pointer;
+        margin-left: 900px;
+    }
+    .second-Nav{
+        position: fixed;
+        height: 100%;
+        width: 100vh;
+        text-align: center;
+        top: 80px;
+        left: -200%;
+        margin-top: 10px;
+        transition: all .5s;
+    }
+    .checkbtn:hover{
+        .second-Nav{
+            left: 0px;
+        }
+    }
+    
+    .first-Nav{
+        margin-left: 20px;
+    }
+    
+}
+/*banner section*/
+.banner{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("B9A2-Hero-Travel-main/Images/Group 13 (1) (1).png");
+    background-size: cover;
+    margin-top: 146px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 70px;
+}
+.Banner-section_1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Banner-section_3{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 700px;
+    height: 50px;
+    display: flex;
+   justify-content: space-evenly;
+}
+.Banner-section_3>select{
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    border-radius: 7px;
+}
+.Banner-section_3>button{
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #FF5400;
+}
+/**Banner section for responsive */
+@media screen and (max-width:640px){
+    .banner{
+        width: 1000px;
+        height: 483px;
+        margin-left: 30%;
+        line-height: 30px;
+    }
+    .Banner-section_1{
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .Banner-section_2{
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .Banner-section_3{
+        width: 15%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+/*popular tour section*/
+.popular-Tour{
+    height: 500px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+}
+.popular-Tour-blog{
+    width: 600px;
+    margin-top: 150px;
+    line-height: 50px;
+    font-size: 20px;
+}
+#opt{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    line-height: 70px;
+}
+.popular-Tour-blog>p{
+    line-height: 17px;
+}
+.popular-Tour-blog>p>button{
+    position: relative;
+    background-color: #FF5400;
+    top:70px;
+    left: 20px;
+    height: 50px;
+    width: 100px;
+    border: 0px solid transparent;
+    border-radius: 7px;
+
+}
+.popular-tour-picture{
+    width: 600px;
+   background-color: white;
+   background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 4.png");
+   background-size: cover;
+}
+/*for mobile device*/
+@media screen and (max-width:640px){
+ .popular-Tour{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;    
+ }
+ .popular-Tour-blog{
+    margin: 0;
+    height: 500px;
+    width: 80%;
+ }
+ .popular-tour-picture{
+    height: 700px;
+    width: 80%;
+    margin-top: 0px;
+    padding-top: 0px;
+ }
+}
+/*Choose your destination section*/
+.choose-Your-destination{
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+@media screen and (max-width:640px){
+    .choose-Your-destination{
+        width: 700px;
+        margin-top: 50px;
+        margin-left: 300px;
+        line-height: 20px;
+        justify-content: center;
+        justify-items: center;
+    }
+    h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    
+    }
+
+}
+/*Travel photo*/
+.travel-photo{
+    height: 1000px;
+    width: 1200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.first-row{
+    height: 32%;
+    display: flex;
+}
+.tp-1{
+    width: 48%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 5.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.tp-2{
+    width: 48%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 8.png");
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.second-row{
+    height: 32%;
+    display: flex;
+    margin-top: 15px;
+}
+.tp-3{
+    width: 25%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 6.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 7.5px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.tp-4{
+    width: 45%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 7.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 7.5px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.tp-5{
+    width: 26%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 9.png");
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.third-row{
+    display: flex;
+    height: 32%;
+    margin-top: 15px;
+}
+.tp-6{
+    width: 32%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 11.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+
+}
+.tp-7{
+    width: 64%;
+    background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 10.png");
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+}
+.tp:hover{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+/*for responsive */
+@media screen and (max-width:640px) {
+    .travel-photo{
+       margin-top: 150px;
+    }
+    .first-row{
+        flex-direction: column;
+        margin-left: 250px;
+        gap: 15px;
+    }
+    .second-row{
+        flex-direction: column;
+        margin-left: 250px;
+        gap: 15px;
+    }
+    .third-row{
+        flex-direction: column;
+        margin-left: 250px;
+        position: relative;
+        top: 165px;
+        gap:15px;
+    }
+    .tp-1{
+        width: 335px;
+    }
+    .tp-2{
+        width:335px;
+    }
+    .tp-3{
+        width:335px;
+    }
+    .tp-4{
+        width:335px;
+    }
+    .tp-5{
+        width:335px;
+    }
+    .tp-6{
+        width:335px;
+    }
+    .tp-7{
+        width:335px;
+    }
+}
+/*Why choose us*/
+.why-choose-us{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+/*for responsive website*/
+@media screen and (max-width:640px) {
+    .why-choose-us{
+    margin-top: 200px;
+    position: relative;
+    right: 200px;
+    }
+    
+}
+/*Facilities*/
