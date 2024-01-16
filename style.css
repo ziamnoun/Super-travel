@@ -516,3 +516,127 @@ h3{
     border-radius: 10px;
     border: 0px solid transparent;
 }
+.deal-2{
+    height: 500px;
+    width: 1170px;
+    background-image: url("B9A2-Hero-Travel-main/Images/Group 40.png");
+    background-size: auto;
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: baseline;
+}
+#deal-2{
+    height: 80%;
+    width: 470px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#dll-20{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#dl-21{
+    margin-top: 30px;
+}
+#dl-22{margin-top: 30px;}
+#dl-23{margin-top: 30px;}
+#dll-22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+#dll-22>p>span{
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#dll-22>p>button{
+    background-color: #FF5400;
+    color: white;
+    height: 52px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+/*for resposive website*/
+@media screen and (max-width:640px) {
+    .deal-2{
+        margin-top: 200px;
+    }
+
+}
+/*packages*/
+.packages{
+    height: 200px;
+    width:1200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#packages{
+    margin-top: 50px;
+    width:150px;
+    height: 25px;
+    background-color: #FF5400;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.a-simple-place{
+    height: 500px;
+    width: 1200px;
+    margin-left: 200px;
+    display: flex;
+}
+.a-spl-plc-blog{
+    width: 50%;
+    margin: 30px;
+    line-height: 60px;
+}
+.a-spl-plc-blog>p{
+    line-height: 30px;
+}
+.a-spl-plc-blog>p>button{
+    background-color: #FF5400;
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.a-spl-plc-img{
+    width: 50%;
+    background-image:url("B9A2-Hero-Travel-main/Images/Group 40089.png") ;
+    background-size: cover;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width:640px) {
+    .a-simple-place{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .a-spl-plc-blog{
+        text-align: justify;
+    }
+    .a-spl-plc-img{
+        width: 100%;
+        height: 100%;
+    }
+}
