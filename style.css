@@ -246,7 +246,7 @@ h3{
 }
 /*Travel photo*/
 .travel-photo{
-    height: 1000px;
+    height: 2000px;
     width: 1200px;
     margin-left: 200px;
     display: flex;
@@ -342,7 +342,7 @@ h3{
 /*for responsive */
 @media screen and (max-width:640px) {
     .travel-photo{
-       margin-top: 150px;
+       margin-top: 20px;
     }
     .first-row{
         flex-direction: column;
@@ -357,8 +357,6 @@ h3{
     .third-row{
         flex-direction: column;
         margin-left: 250px;
-        position: relative;
-        top: 165px;
         gap:15px;
     }
     .tp-1{
@@ -393,10 +391,76 @@ h3{
 /*for responsive website*/
 @media screen and (max-width:640px) {
     .why-choose-us{
-    margin-top: 200px;
+    margin-top: 20px;
     position: relative;
     right: 200px;
     }
     
 }
 /*Facilities*/
+.facilities{
+    height: 1000px;
+    width: 1176px;
+    margin-top: 30px;
+}
+.facilities-1{
+    display: flex;
+    height: 50%;
+    gap: 20px;
+}
+.hotel{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgb(244, 238, 226);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.service{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgb(191, 226, 240);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.best-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#best-price{
+    width: 50%;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgb(247, 239, 240);
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-top: 20px;
+}
+/*Resposive web site*/
+@media screen and (max-width:640px){
+    .facilities-1{
+        height: 64%;
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        gap:2%;
+        margin-left: 200px;
+    }
+    .best-price{
+        margin-right: 260px;
+
+    }
+    #best-price{
+        height: 170px;
+        width: 490px;
+    }
+}
+/*Deal & and discounts*/
+.deals-and-discounts{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
