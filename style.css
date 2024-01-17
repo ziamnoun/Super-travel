@@ -14,7 +14,7 @@
     display: none;
     margin-right: 40px;
     margin-top: 10px;
-    height: 80px;
+    height: 200px;
     cursor: pointer;
 }
 #check{
@@ -54,7 +54,7 @@
     .checkbtn{
         display: block;
         cursor: pointer;
-        margin-left: 900px;
+        margin-left: 950px;
     }
     .second-Nav{
         position: fixed;
@@ -252,6 +252,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 300px;
 }
 .first-row{
     height: 32%;
@@ -259,6 +260,7 @@ h3{
 }
 .tp-1{
     width: 48%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 5.png");
     background-size: cover;
     border-radius: 10px;
@@ -269,6 +271,7 @@ h3{
 }
 .tp-2{
     width: 48%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 8.png");
     background-size: cover;
     border-radius: 10px;
@@ -279,10 +282,11 @@ h3{
 .second-row{
     height: 32%;
     display: flex;
-    margin-top: 15px;
+    margin-top: 150px;
 }
 .tp-3{
     width: 25%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 6.png");
     background-size: cover;
     border-radius: 10px;
@@ -293,6 +297,7 @@ h3{
 }
 .tp-4{
     width: 45%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 7.png");
     background-size: cover;
     border-radius: 10px;
@@ -303,6 +308,7 @@ h3{
 }
 .tp-5{
     width: 26%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 9.png");
     background-size: cover;
     border-radius: 10px;
@@ -313,10 +319,11 @@ h3{
 .third-row{
     display: flex;
     height: 32%;
-    margin-top: 15px;
+    margin-top: 150px;
 }
 .tp-6{
     width: 32%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 11.png");
     background-size: cover;
     border-radius: 10px;
@@ -328,6 +335,7 @@ h3{
 }
 .tp-7{
     width: 64%;
+    height: 100%;
     background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 10.png");
     background-size: cover;
     border-radius: 10px;
@@ -342,7 +350,7 @@ h3{
 /*for responsive */
 @media screen and (max-width:640px) {
     .travel-photo{
-       margin-top: 20px;
+       margin-top: 300px;
     }
     .first-row{
         flex-direction: column;
@@ -353,14 +361,17 @@ h3{
         flex-direction: column;
         margin-left: 250px;
         gap: 15px;
+       margin-top: 0px;
     }
     .third-row{
         flex-direction: column;
         margin-left: 250px;
         gap:15px;
+        margin-top: 10px;
     }
     .tp-1{
         width: 335px;
+        height: 100%;
     }
     .tp-2{
         width:335px;
@@ -386,7 +397,7 @@ h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 /*for responsive website*/
 @media screen and (max-width:640px) {
@@ -708,7 +719,8 @@ h3{
     }
     .subscribe-pic{
         width: 100%;
-        height: 80%;
+        height: 100%;
+        border-radius: 15px;
     }
     .ds{
         height: 110px;
@@ -764,4 +776,25 @@ h5{
     gap: 15px;
     
 }
-
+.line{
+    background-color: rgba(19, 19, 24, 0.10);
+    width: 872px;
+    height: 1px;
+    margin-top: 35px;
+}
+.right{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 50px;
+}
+/*for resposive website*/
+@media screen and (max-width:640px){
+    .footer{
+        width: 1500px;
+    }
+    
+}
